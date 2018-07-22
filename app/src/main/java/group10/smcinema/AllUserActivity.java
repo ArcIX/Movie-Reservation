@@ -12,7 +12,7 @@ import group10.smcinema.Objects.User;
 
 public class AllUserActivity extends AppCompatActivity {
     TextView TVWelcome;
-    User user = new User();
+    static User user; //make this static and wag mag-new User()
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
